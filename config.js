@@ -5,7 +5,7 @@ global.tempatnye = JSON.parse(fs.readFileSync('./src/tempatnye.json'))
 global.thumbt = global.img
 global.fsx = 999999999999
 global.kontak = [
-['62895604670507', 'Claraa 🥶🥶', '😅☝️', 'Clarz939@gmail.com', true]
+['6285822347358', 'Arull 🥶🥶', '😅☝️', 'arulltes@gmail.com', true]
 
 ]
 global.APIs = { // API Prefix
@@ -37,12 +37,12 @@ global.APIKeys = { // APIKey Here
   'https://leyscoders-api.herokuapp.com': 'dappakntlll'
 }
 
-global.wm = 'Bot-Md 𝑩𝒚 Clara-chann'
-global.linkgc = 'https://chat.whatsapp.com/'
-global.linkig = 'https://www.instagram.com/'
+global.wm = 'ArullBotz 𝑩𝒚 Arull'
+global.linkgc = 'https://chat.whatsapp.com/LHfAOQ4sa2g40Bu5sXDWva'
+global.linkig = 'https://www.instagram.com/sahrulwara_____'
 global.deslink = ''
-global.titlink = 'RikkaMD'
-global.bodlink = 'linktr.ee/raaaaa_'
+global.titlink = 'https://youtu.be/4cQwSCtZo1Q'
+global.bodlink = 'https://youtu.be/4cQwSCtZo1Q'
 
 global.wait = '_*𝐬𝐞𝐝𝐚𝐧𝐠 𝐝𝐢 𝐩𝐫𝐨𝐬𝐞𝐬 ...*_'
 global.eror = '_*мααƒ ѕєяνєя тι∂αк ѕтαвιℓ..*_'
@@ -52,11 +52,11 @@ global.eror = '_*мααƒ ѕєяνєя тι∂αк ѕтαвιℓ..*_'
 
 //========Url Template Buttons==========//
 global.dtu = '𝑭𝒐𝒍𝒍𝒐𝒘'
-global.urlnya = "https://www.instagram.com"
+global.urlnya = "https://www.instagram.com/sahrulwara_____"
 
 //============= callButtons ============//
-global.dtc = '𝒄𝒂𝒍𝒍 𝒐𝒘𝒏𝒆𝒓'
-global.phn = '+62 895-6046-70507'
+global.dtc = 'Call Bot'
+global.phn = '+62 838-4319-2208'
 
 //========== Tampilan Bot =============//
 global.sa = '╭─'
@@ -70,11 +70,11 @@ global.zt = '*'
 global.zc = ''
 
 global.thumbnailUrl = [
-  'https://telegra.ph/file/81260a8b9e8cff26d2b48.jpg', 'https://telegra.ph/file/ac4928f0824a2a0492737.jpg',
-  'https://telegra.ph/file/6359b013bc7e52c3b346f.jpg', 'https://telegra.ph/file/d43c89a5d2da72875ec05.jpg',
-  'https://telegra.ph/file/7d6c0e35f9c8f52715541.jpg', 'https://telegra.ph/file/ef4b742d47e6a9115e2ff.jpg',
-  'https://telegra.ph/file/55e5af5f33fbd57104187.jpg', 'https://telegra.ph/file/af236598456b95884bd15.jpg',
-  'https://telegra.ph/file/de92ed4a729887ffc974c.jpg', 'https://telegra.ph/file/00ce42a193b1dbbf907d4.jpg'
+  'https://telegra.ph/file/69ca5c3a605e4a2420670.jpg', 'https://telegra.ph/file/ac4928f0824a2a0492737.jpg',
+  'https://telegra.ph/file/69ca5c3a605e4a2420670.jpg', 'https://telegra.ph/file/d43c89a5d2da72875ec05.jpg',
+  'https://telegra.ph/file/69ca5c3a605e4a2420670.jpg', 'https://telegra.ph/file/ef4b742d47e6a9115e2ff.jpg',
+  'https://telegra.ph/file/69ca5c3a605e4a2420670.jpg', 'https://telegra.ph/file/af236598456b95884bd15.jpg',
+  'https://telegra.ph/file/69ca5c3a605e4a2420670.jpg', 'https://telegra.ph/file/00ce42a193b1dbbf907d4.jpg'
 ]
 
 //============= Games ================//
