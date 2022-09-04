@@ -67,7 +67,7 @@ loadDatabase()
 // if (opts['cluster']) {
 //   require('./lib/cluster').Cluster()
 // }
-global.authFile = `${opts._[0] || 'FileBokep'}.xml`
+global.authFile = `${opts._[0] || 'haori'}.json`
 global.isInit = !fs.existsSync(authFile)
 const { state, saveState } = useSingleFileAuthState(global.authFile)
 
@@ -130,7 +130,17 @@ global.reloadHandler = function (restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate)
   }
 
-  conn.welcome = 'Hai, @user!\nSelamat datang di grup: @subject\n\nDeskripsi: @desc'
+  conn.welcome = `*Hai @user ! 👋*
+         ‷✧ Selamat Datang di Grup
+           *@subject*
+           
+◪ *Intro Member Baru* 
+📛 Nama :  
+🔞 Umur : 
+🏙️ Askot : 
+  
+        *◌  ⃝✧⪼ Deskripsi Group ミ*
+  @desc`
   conn.bye = 'Selamat tinggal @user!'
   conn.spromote = '@user sekarang admin!'
   conn.sdemote = '@user sekarang bukan admin!'
@@ -160,7 +170,7 @@ global.reloadHandler = function (restatConn) {
   return true
 }
 
-let pluginFolder = path.join(__dirname, 'Yangtawutawuaja🤓')
+let pluginFolder = path.join(__dirname, 'Zivsan')
 let pluginFilter = filename => /\.js$/.test(filename)
 global.plugins = {}
 for (let filename of fs.readdirSync(pluginFolder).filter(pluginFilter)) {
@@ -195,7 +205,7 @@ global.reload = (_ev, filename) => {
   }
 }
 Object.freeze(global.reload)
-fs.watch(path.join(__dirname, 'Yangtawutawuaja🤓'), global.reload)
+fs.watch(path.join(__dirname, 'Zivsan'), global.reload)
 global.reloadHandler()
 
 // Quick Test
